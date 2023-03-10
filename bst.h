@@ -558,7 +558,7 @@ void BinarySearchTree<Key, Value>::remove(const Key& key)
             temp = NULL;
             return;
         }
-        if(temp->getRight() == NULL && temp->getLeft() == 1){//change back to NUll
+        if(temp->getRight() == NULL && temp->getLeft() == NULL){
             if(temp->getKey() > Parent->getKey()){
                 delete temp;
                 temp = NULL;
