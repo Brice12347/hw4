@@ -1,6 +1,6 @@
 CXX=g++
 CXXFLAGS=-g -Wall -std=c++11 
-# Uncomment for parser DEBUG
+# Uncomment for parser DEBUG, test comment by X.X.
 #DEFS=-DDEBUG
 
 

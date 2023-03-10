@@ -59,6 +59,14 @@ bool count(Node * root,int& maxlength, int curr){
 bool equalPaths(Node * root)
 {
     // Add your code below
+
+    if(root == NULL){
+        return;
+    }
+    equalPaths(root->left);
+    equalPaths(root->right);
+    
+
 		if(root == NULL){
 			return true;
 		}
