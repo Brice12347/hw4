@@ -79,7 +79,7 @@ int8_t AVLNode<Key, Value>::getBalance() const
 template<class Key, class Value>
 void AVLNode<Key, Value>::setBalance(int8_t balance)
 {
-    balance_ = balance;
+    balance_ = 0;//balance
 }
 
 /**
